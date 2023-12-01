@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  #chocolate-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #total-price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

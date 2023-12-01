@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Custom Chocolate Pack Builder</title>
+</head>
+<body>
+
+<form id="chocolate-form">
+  <label>
+    <input type="checkbox" name="darkChocolate" value="2.5"> Dark Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="milkChocolate" value="2"> Milk Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="whiteChocolate" value="2.8"> White Chocolate
+  </label>
+  <!-- Add more checkboxes for other chocolate options -->
+  <label>
+    <input type="checkbox" name="caramelChocolate" value="3"> Caramel Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="nutChocolate" value="3.5"> Nut Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="mintChocolate" value="3.2"> Mint Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="orangeChocolate" value="3.4"> Orange Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="hazelnutChocolate" value="3.8"> Hazelnut Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="toffeeChocolate" value="3.3"> Toffee Chocolate
+  </label>
+  <label>
+    <input type="checkbox" name="coconutChocolate" value="3.6"> Coconut Chocolate
+  </label>
+
+  <div id="total-price">Total Price: $0.00</div>
+  <button type="button" onclick="calculateTotal()">Calculate Total</button>
+
+  <div id="price-list">
+    <h2>Price List</h2>
+    <ul>
+      <li>Dark Chocolate: $2.50</li>
+      <li>Milk Chocolate: $2.00</li>
+      <li>White Chocolate: $2.80</li>
+      <!-- Add more chocolates to the price list -->
+      <li>Caramel Chocolate: $3.00</li>
+      <li>Nut Chocolate: $3.50</li>
+      <li>Mint Chocolate: $3.20</li>
+      <li>Orange Chocolate: $3.40</li>
+      <li>Hazelnut Chocolate: $3.80</li>
+      <li>Toffee Chocolate: $3.30</li>
+      <li>Coconut Chocolate: $3.60</li>
+    </ul>
+  </div>
+</form>
+
+<script src="scripts.js"></script>
+</body>
+</html>
